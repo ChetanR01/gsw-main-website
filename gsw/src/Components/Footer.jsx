@@ -162,6 +162,17 @@ const Footer = () => {
             <p className="text-sm text-gray-500">
               &copy; {new Date().getFullYear()} Gurumauli Steel Works. All rights reserved.
             </p>
+            <p className="text-sm text-gray-500">
+              Developed &amp; Managed by{' '}
+              <a
+                href="https://1techspace.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-500 font-semibold hover:text-white transition-colors"
+              >
+                1TechSpace
+              </a>
+            </p>
             <div className="flex flex-wrap items-center gap-6">
               <Link to="/privacy-policy" onClick={scrollTop} className="text-sm text-gray-500 hover:text-white transition-colors">
                 Privacy Policy
@@ -174,17 +185,6 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <p className="mt-4 pt-4 border-t border-gray-900 text-center text-xs text-gray-500">
-            Developed &amp; Managed by{' '}
-            <a
-              href="https://1techspace.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-red-500 font-semibold hover:text-white transition-colors"
-            >
-              1TechSpace
-            </a>
-          </p>
         </div>
       </div>
     </footer>
