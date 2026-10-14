@@ -174,6 +174,17 @@ const Footer = () => {
               </Link>
             </div>
           </div>
+          <p className="mt-4 pt-4 border-t border-gray-900 text-center text-xs text-gray-500">
+            Developed &amp; Managed by{' '}
+            <a
+              href="https://1techspace.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-500 font-semibold hover:text-white transition-colors"
+            >
+              1TechSpace
+            </a>
+          </p>
         </div>
       </div>
     </footer>
